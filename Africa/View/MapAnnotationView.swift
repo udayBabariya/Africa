@@ -41,15 +41,15 @@ struct MapAnnotationView: View {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
-
-    struct previewWrapper: View {
-
-        let locations: [NationalParkLocation] = Bundle.main.decode("locations.json")
-        var body: some View{
-            MapAnnotationView(location: locations[0])
-                .padding()
-        }
-    }
-    return previewWrapper()
-}
+//#Preview(traits: .sizeThatFitsLayout) {
+//
+//    struct previewWrapper: View {
+//
+//        let locations: [NationalParkLocation] = Bundle.main.decode("locations.json")
+//        var body: some View{
+//            MapAnnotationView(location: locations[0])
+//                .padding()
+//        }
+//    }
+//    return previewWrapper()
+//}
