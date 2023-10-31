@@ -26,14 +26,14 @@ struct InsectFactView: View {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
-    struct previewWrapper: View {
-        let animals: [Animal] = Bundle.main.decode("animals.json")
-        
-        var body: some View {
-            InsectFactView(animal: animals[0])
-                .padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
-        }
-    }
-    return previewWrapper()
-}
+//#Preview(traits: .sizeThatFitsLayout) {
+//    struct previewWrapper: View {
+//        let animals: [Animal] = Bundle.main.decode("animals.json")
+//        
+//        var body: some View {
+//            InsectFactView(animal: animals[0])
+//                .padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
+//        }
+//    }
+//    return previewWrapper()
+//}

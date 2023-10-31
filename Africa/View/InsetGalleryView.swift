@@ -28,15 +28,15 @@ struct InsetGalleryView: View {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
-    
-    struct previewWrapper: View {
-        let animals: [Animal] = Bundle.main.decode("animals.json")
-        
-        var body: some View {
-            InsetGalleryView(animal: animals[0])
-                .padding()
-        }
-    }
-   return previewWrapper()
-}
+//#Preview(traits: .sizeThatFitsLayout) {
+//    
+//    struct previewWrapper: View {
+//        let animals: [Animal] = Bundle.main.decode("animals.json")
+//        
+//        var body: some View {
+//            InsetGalleryView(animal: animals[0])
+//                .padding()
+//        }
+//    }
+//   return previewWrapper()
+//}

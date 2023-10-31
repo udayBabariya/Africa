@@ -88,16 +88,16 @@ struct AnimalDetailView: View {
     }
 }
 
-#Preview {
-    struct previewWrapper: View {
-        let animals: [Animal] = Bundle.main.decode("animals.json")
-        
-        var body: some View {
-            NavigationView {
-                AnimalDetailView(animal: animals[0])
-            }
-        }
-    }
-    return previewWrapper()
-}
+//#Preview {
+//    struct previewWrapper: View {
+//        let animals: [Animal] = Bundle.main.decode("animals.json")
+//        
+//        var body: some View {
+//            NavigationView {
+//                AnimalDetailView(animal: animals[0])
+//            }
+//        }
+//    }
+//    return previewWrapper()
+//}
 

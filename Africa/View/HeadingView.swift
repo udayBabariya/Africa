@@ -29,7 +29,7 @@ struct HeadingView: View {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
-    HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in Pictures")
-        .padding()
-}
+//#Preview(traits: .sizeThatFitsLayout) {
+//    HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in Pictures")
+//        .padding()
+//}

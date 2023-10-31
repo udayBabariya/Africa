@@ -41,14 +41,14 @@ struct AnimalListItemView: View {
 }
 
 
-#Preview(traits: .sizeThatFitsLayout) {
-    
-    struct previewWrapper: View {
-        let animals: [Animal] = Bundle.main.decode("animals.json")
-        
-        var body: some View {
-            AnimalListItemView(animal: animals[1])
-        }
-    }
-    return previewWrapper()
-}
+//#Preview(traits: .sizeThatFitsLayout) {
+//    
+//    struct previewWrapper: View {
+//        let animals: [Animal] = Bundle.main.decode("animals.json")
+//        
+//        var body: some View {
+//            AnimalListItemView(animal: animals[1])
+//        }
+//    }
+//    return previewWrapper()
+//}
