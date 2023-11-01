@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		781BBF5E2AF1648F0031EBDD /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BBF5D2AF1648F0031EBDD /* AnimalGridItemView.swift */; };
+		784EAA1F2AF1FD8A006DF27A /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784EAA1E2AF1FD8A006DF27A /* CreditsView.swift */; };
+		784EAA222AF1FF5F006DF27A /* CenterModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784EAA212AF1FF5F006DF27A /* CenterModifire.swift */; };
 		786F0DC22AEFA642001AB554 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786F0DC12AEFA642001AB554 /* LocationModel.swift */; };
 		788B5F862AEFE6990036B1B1 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B5F852AEFE6990036B1B1 /* VideoPlayerView.swift */; };
 		788B5F892AEFE7720036B1B1 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788B5F882AEFE7720036B1B1 /* VideoPlayerHelper.swift */; };
@@ -77,6 +79,8 @@
 
 /* Begin PBXFileReference section */
 		781BBF5D2AF1648F0031EBDD /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		784EAA1E2AF1FD8A006DF27A /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		784EAA212AF1FF5F006DF27A /* CenterModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifire.swift; sourceTree = "<group>"; };
 		786F0DC12AEFA642001AB554 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		788B5F852AEFE6990036B1B1 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		788B5F882AEFE7720036B1B1 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
@@ -134,6 +138,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		784EAA202AF1FF3D006DF27A /* Modifire */ = {
+			isa = PBXGroup;
+			children = (
+				784EAA212AF1FF5F006DF27A /* CenterModifire.swift */,
+			);
+			path = Modifire;
+			sourceTree = "<group>";
+		};
 		788B5F872AEFE7460036B1B1 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +170,7 @@
 				788B5F9C2AF006DF0036B1B1 /* MapAnnotationView.swift */,
 				788B5F9E2AF09C7D0036B1B1 /* MotionAnimationView.swift */,
 				781BBF5D2AF1648F0031EBDD /* AnimalGridItemView.swift */,
+				784EAA1E2AF1FD8A006DF27A /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -206,6 +219,7 @@
 				78E139DB2AEC2A5B001AC421 /* Data */,
 				78DB99C72AEE405600AEE64E /* Exension */,
 				78DB99C42AEE3F4F00AEE64E /* Model */,
+				784EAA202AF1FF3D006DF27A /* Modifire */,
 				788B5F872AEFE7460036B1B1 /* Helper */,
 				78E139CA2AEC2A0C001AC421 /* Video */,
 				78DB99C12AEE395700AEE64E /* View */,
@@ -394,6 +408,7 @@
 				78DB99CF2AEE5ABC00AEE64E /* AnimalDetailView.swift in Sources */,
 				78DB99CD2AEE4AFA00AEE64E /* AnimalModel.swift in Sources */,
 				786F0DC22AEFA642001AB554 /* LocationModel.swift in Sources */,
+				784EAA222AF1FF5F006DF27A /* CenterModifire.swift in Sources */,
 				78E139EA2AEC2E27001AC421 /* MapView.swift in Sources */,
 				78DB99D72AEEBB8F00AEE64E /* InsetMapView.swift in Sources */,
 				78E139BD2AEC25CE001AC421 /* AfricaApp.swift in Sources */,
@@ -406,6 +421,7 @@
 				781BBF5E2AF1648F0031EBDD /* AnimalGridItemView.swift in Sources */,
 				78FDB79F2AEF9D8F00E2299B /* VideoListItemView.swift in Sources */,
 				78DB99C92AEE406B00AEE64E /* CodableBundleExtension.swift in Sources */,
+				784EAA1F2AF1FD8A006DF27A /* CreditsView.swift in Sources */,
 				78DB99D12AEE5E5E00AEE64E /* HeadingView.swift in Sources */,
 				788B5F9F2AF09C7D0036B1B1 /* MotionAnimationView.swift in Sources */,
 				788B5F892AEFE7720036B1B1 /* VideoPlayerHelper.swift in Sources */,
